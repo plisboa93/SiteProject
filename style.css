@@ -1,0 +1,69 @@
+html,
+body{
+
+    background: url(FRENTE_pages-to-jpg-0001.jpg);
+	background-size: cover;
+	margin: auto;
+	width: 90%;
+	height: auto;
+	background-clip: border-box;
+	
+
+}
+.topo{
+	margin: 0;
+	float: center;
+	background-color: black;
+	height: 55px; 
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	background-position: center;
+	/* border: 3px solid green;	 */
+}
+
+.list{
+	margin: 1;
+	width: 100%;
+	display: block;
+	padding-top: 16px;
+	display: flex;
+	justify-content: center;
+	/* border: 3px solid red; */
+
+}
+
+
+li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+  
+}
+
+li a{
+	text-decoration-style: none;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 19px 40px;
+	margin: 100px;
+	color: white;
+	font-family: sans-serif;
+	position: relative;
+    font-weight: inherit;
+    line-height: inherit;
+	text-align: center;
+	/* background-color: aqua; */
+	
+  
+
+}
+li a:hover{
+	background-color: #403c3c;
+
+}
+
+
+
+
+
