@@ -8,9 +8,8 @@ body{
 	height: auto;
 	background-clip: border-box;
 	background-repeat: no-repeat;
-	
-
 }
+
 .topo{
 	margin: 0;
 	float: center;
@@ -31,15 +30,12 @@ body{
 	display: flex;
 	justify-content: center;
 	/* border: 3px solid red; */
-
 }
-
 
 li{
 	list-style: none;
 	display: inline-block;
-	text-align: center;
-  
+	text-align: center; 
 }
 
 li a{
@@ -55,13 +51,10 @@ li a{
     line-height: inherit;
 	text-align: center;
 	/* background-color: aqua; */
-	
-  
-
 }
+
 li a:hover{
 	background-color: #403c3c;
-
 }
 
 
