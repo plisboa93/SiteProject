@@ -4,32 +4,34 @@ body{
     background: url(FRENTE_pages-to-jpg-0001.jpg);
 	background-size: cover;
 	margin: auto;
-	width: 90%;
+	width: 97%;
 	height: auto;
-	/* background-clip: border-box; */
+	background-clip: border-box;
 	background-repeat: no-repeat;
+	opacity: 0.9;
 }
 
 .topo{
-	margin: 0;
+	width: 30%;
+	margin-left: 35%;
 	float: center;
 	background-color: black;
 	height: 55px; 
-	position: relative;
-	z-index: 2;
+	/* position: relative; */
+	/* z-index: 2; */
 	text-align: center;
 	background-position: center;
-	/* border: 3px solid green;	 */
+	
+	border: 2px solid ;
+	border-radius: 25px;
 }
 
 .list{
-	margin: 1;
+	margin: 10;
 	width: 100%;
 	display: block;
-	padding-top: 16px;
-	display: flex;
 	justify-content: center;
-	/* border: 3px solid red; */
+	padding: 0;
 }
 
 li{
@@ -42,8 +44,7 @@ li a{
 	text-decoration-style: none;
 	text-decoration: none;
 	font-size: 18px;
-	padding: 19px 40px;
-	margin: 100px;
+	margin: 50px;
 	color: white;
 	font-family: sans-serif;
 	position: relative;
@@ -58,6 +59,21 @@ li a:hover{
 }
 
 
+.about{
+	
+	float:right;
+	margin-top: 40px;
+	padding-left: 70%;
+	color: white;
+}
 
+
+.contact{
+	
+	float:right;
+	margin-top: 25%;
+	padding-left: 70%;
+	color: white;
+}
 
 
