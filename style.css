@@ -11,8 +11,9 @@ body{
 	opacity: 0.9;
 }
 
-.topo{
+header{
 	width: 30%;
+	
 	margin-left: 35%;
 	float: center;
 	background-color: black;
@@ -21,7 +22,7 @@ body{
 	/* z-index: 2; */
 	text-align: center;
 	background-position: center;
-	
+	display: flex;
 	border: 2px solid ;
 	border-radius: 25px;
 }
@@ -30,7 +31,7 @@ body{
 	margin: 10;
 	width: 100%;
 	display: block;
-	justify-content: center;
+	justify-content: space-between;
 	padding: 0;
 }
 
