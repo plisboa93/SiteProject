@@ -3,67 +3,76 @@ body{
 
     background: url(FRENTE_pages-to-jpg-0001.jpg);
 	background-size: cover;
-	margin: auto;
-	width: 97%;
+	margin: 0;
+	width: auto;
 	height: auto;
-	background-clip: border-box;
 	background-repeat: no-repeat;
 	opacity: 0.9;
+	
 }
 
 header{
-	width: 30%;
-	
-	margin-left: 35%;
+	background-color: black;
+	width: 38%;
+	display: flex;
+	height: 50%;
+	border: 2px solid ;
+	border-radius: 25px;
+	margin-left: 30%;
+
+
+
+	/* margin-left: 35%;
 	float: center;
 	background-color: black;
 	height: 55px; 
 	/* position: relative; */
 	/* z-index: 2; */
-	text-align: center;
+	/* text-align: center;
 	background-position: center;
-	display: flex;
-	border: 2px solid ;
-	border-radius: 25px;
-}
+	display: flex;*/
+} 
 
-.list{
-	margin: 10;
-	width: 100%;
-	display: block;
-	justify-content: space-between;
-	padding: 0;
+.menu{
+
+	list-style: none;
+	display: flex;
+	
+	align-items: center;
+
 }
 
 li{
 	list-style: none;
-	display: inline-block;
+	display: flex;
 	text-align: center; 
+	padding-left: 50px;
 }
 
 li a{
-	text-decoration-style: none;
+	margin: 0;
+	display: block;
 	text-decoration: none;
 	font-size: 18px;
-	margin: 50px;
 	color: white;
 	font-family: sans-serif;
-	position: relative;
-    font-weight: inherit;
-    line-height: inherit;
-	text-align: center;
-	/* background-color: aqua; */
+	padding: 1px ;
+	border-radius: 10px;
+	margin-left: 10px;
+	
 }
 
 li a:hover{
 	background-color: #403c3c;
+	display: block;
+	text-decoration: none;
 }
 
 
 .about{
 	
 	float:right;
-	margin-top: 40px;
+	margin-top: 20px;
 	padding-left: 70%;
 	color: white;
 }
@@ -72,9 +81,16 @@ li a:hover{
 .contact{
 	
 	float:right;
-	margin-top: 25%;
+	padding-top: 14%;
 	padding-left: 70%;
 	color: white;
 }
 
+img{
+	display:flex;
+	width:30px;
+	padding-left: 50px;
+	align-items: center;
+
+}
 
