@@ -20,6 +20,8 @@ header{
 	border: 2px solid ;
 	border-radius: 25px;
 	margin-left: 30%;
+	
+
 
 
 
@@ -40,6 +42,7 @@ header{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	
 
 }
 
@@ -74,9 +77,9 @@ li a:hover{
 
 .about{
 	
-	float:center;
-	padding-left: 36%;
+	float:right;
 	color: white;
+	
 }
 
 
@@ -93,9 +96,11 @@ img{
 	width:30px;
 	padding-left: 50px;
 	align-items: center;
+	
 
 }
 
 .container{
 	flex-wrap: wrap;
 }
+
