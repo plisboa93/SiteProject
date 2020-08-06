@@ -7,7 +7,6 @@ body{
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
-	opacity: 0.8;
 	
 	
 	
@@ -15,32 +14,26 @@ body{
 
 header{
 	margin: 0 auto;
-	display: flex;
 	background-color: black;
 	max-width: 600px;
 	width: 100%;
 	border: 2px solid ;
-	border-radius: 25px;
+	border-radius: 18px;
 	position: static;
-		
-	/* margin-left: 35%;
-	float: center;
-	background-color: black;
-	height: 55px; 
-	/* position: relative; */
-	/* z-index: 2; */
-	/* text-align: center;
-	background-position: center;
-	display: flex;*/
+	
 } 
 
 .menu{
-
+	margin: 5px 0;
 	list-style: none;
 	display: flex;
 	align-items: center;
 	
 
+}
+
+ul{
+	
 }
 
 li{
@@ -52,40 +45,50 @@ li{
 }
 
 li a{
-	margin: 0;
-	display: block;
-	text-decoration: none;
+	/* margin: 0; */
+ 	text-decoration: none;
 	font-size: 18px;
 	color: white;
 	font-family: sans-serif;
-	/* padding: 1px ; */
-	border-radius: 10px;
-	margin-left: 10px;
-	
+	 /* padding: 1px ;  */
+	border-radius: 18px;
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px;
+  	
 }
 
 li a:hover{
-	background-color: #403c3c;
-	display: block;
-	text-decoration: none;
-	
+	background-color: rgb(51, 51, 51);
 }
 
 
 .about{
 	
-	float:right;
-	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
 	
+	
+}
+
+.about li{
+	margin-left: 41%;
+	text-decoration: none;
+	color: white;
+	padding: 0 0 5px 0;
+
 }
 
 
 .contact{
 	
 	float:right;
-	padding-top: 17%;
-	padding-left: 70%;
+	margin-top: 22%;
+	margin-left: 42%;
 	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
 }
 
 img{
